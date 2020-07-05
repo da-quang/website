@@ -1,0 +1,338 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/********************************************************************************/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 12px 18px;
+
+    transition: background-color 0.4s ease-out;
+    color: white;
+}
+
+nav span {
+    font-weight: 600;
+    letter-spacing: .085em;
+}
+
+nav.scroll {
+    background-color: black;
+    color: white;
+}
+
+#title {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.navigation {
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 980px;
+
+}
+
+.navigation span a {
+    font-size: 18px;
+    margin: 20px;
+    padding: 0 20px;
+    width: 200px;
+    height: 20px;
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+/********************************************************************************/
+.head {
+    background: lightgreen;
+    height: 900px;
+    position: relative;
+    z-index: -1;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(picutre/main.png);
+    background-repeat: no-repeat;
+}
+
+.head h1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 800px;
+    height: 150px;
+    font-size: 90px;
+}
+
+.head .button {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 100px;
+}
+
+.head .btn {
+    color: black;
+    border: 1px solid #fff;
+    padding: 23px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: aliceblue;
+}
+
+.head p {
+    padding-top: 650px;
+    padding-left: 100px;
+}
+
+/********************************************************************************/
+.chest {
+    background: beige;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+}
+
+.chest .leftbox {
+    padding-top: 60px;
+    margin-left: 200px;
+    padding-left: 0px;
+    width: 750px;
+    height: 250px;
+    font-size: 60px
+}
+
+.chest .rightbox {
+    margin-top: -230px;
+    margin-left: 1100px;
+    width: 500px;
+    height: 300px;
+    font-size: 30px
+}
+
+/********************************************************************************/
+.topbody {
+    background-color: white;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+
+.topbody .rightbox {
+    background-color: lightgreen;
+    margin-left: 1000px;
+    margin-top: 80px;
+    width: 600px;
+    height: 600px;
+    background-image: url(picutre/pic1.png);
+}
+
+.topbody .topbox {
+    margin-left: 200px;
+    margin-top: -580px;
+    height: 200px;
+    width: 700px;
+    font-size: 50px
+}
+
+.topbody .bottombox {
+    margin-left: 200px;
+    margin-top: 0px;
+    height: 150px;
+    width: 700px;
+    font-size: 30px
+}
+
+.topbody .button {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.topbody .btn {
+    border: 1px solid #2c4577;
+    background-color: #2c4577;
+    padding: 23px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    color: white;
+}
+
+/********************************************************************************/
+.bottombody {
+    background-color: white;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+}
+
+.bottombody .leftbox {
+    float: left;
+    background-color: lightgreen;
+    margin-left: 200px;
+
+    width: 600px;
+    height: 600px;
+    background-image: url(picutre/pic2.png);
+    background-size: 600px 600px;
+}
+
+.bottombody .topbox {
+    margin-left: 950px;
+    margin-top: 100px;
+    height: 300px;
+    width: 700px;
+    font-size: 60px
+}
+
+
+.bottombody .bottombox {
+    margin-left: 950px;
+    margin-top: 0px;
+    height: 150px;
+    width: 600px;
+    font-size: 30px
+}
+
+.bottombody .button {
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 950px;
+}
+
+.bottombody .btn {
+
+    border: 1px solid #2c4577;
+    background-color: #2c4577;
+    padding: 23px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    color: white;
+}
+
+/********************************************************************************/
+.foot {
+    height: 1100px;
+}
+
+.foot .bigbox {
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(picutre/main.jpg);
+    font-size: 60px;
+    background-repeat: no-repeat;
+    
+}
+
+.foot .bigbox p {
+    margin-left: 450px;
+    margin-right: auto;
+    width: 900px;
+    height: 500px;
+    padding-top: 150px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.foot a{
+    font-size: 30px;
+}
+.foot .textbox {
+    margin-top: 60px;
+    float: left;
+    margin-left: 200px;
+    width: 600px;
+    height: 200px;
+    font-size: 50px;
+}
+
+.foot .infobox {
+    margin-top: 60px;
+    margin-left: 1100px;
+    width: 500px;
+    height: 300px;
+    font-size: 30px;
+}
+
+.foot .button {
+    margin-top: 10px;
+    margin-right: 296px;
+}
+
+.foot .btn {
+    border: 1px solid #2c4577;
+    background-color: #2c4577;
+    padding: 20px 45px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    color: white;
+}
+
+.foot a{
+    font-size: 20px;
+}
+/********************************************************************************/
+.end {
+    color: white;
+    background: #08070f;
+    height: 380px;
+}
+
+.end .main {
+    float: left;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.end .box {
+    float: right;
+    width: 700px;
+    height: 180px;
+    margin-right: 200px;
+    margin-top: 70px;
+}
+
+.end .side {
+    float: right;
+    margin-right: 80px;
+    background-color: ;
+}
+
+.end h1 {
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.end ul {
+    list-style-type: none;
+}
+
+.end .main li {
+    margin-bottom: 10px;
+}
+
+.end .side span {
+    display: block;
+    width: 80px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
